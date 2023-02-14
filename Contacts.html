@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="icon" type="image/jpg" href="letter-q.ico"></link>
+    <title>Quirky - Contacts</title>
+</head>
+<nav>
+    <div class="navbar">
+        <a href="index.html">NOS CREATIONS</a>
+        <a href="partenaires.html">NOS PARTENAIRES</a>
+        <a href="Contacts.html">CONTACTEZ NOUS</a>
+    </div>
+</nav>
+<body>
+    <div class="container">
+        <h1>Nous Contacter :</h1>
+        <form action="https://formspree.io/f/xnqyprlb" method="POST">
+            <input type="text" name="name" placeholder="Votre Nom" required>
+            <input type="email" name="Email" placeholder="Votre adresse e-mail" required>
+            <select name="PlateForme">
+                <option>Selectionnez Votre Plateforme</option>
+                <option>PC/Mac</option>
+                <option>Mobile</option>
+                <option>Autre</option>
+            </select>
+            <textarea name="Message" placeholder="Votre Message" required></textarea>
+            <div class="Btn">
+            <button type="submit"><p>Envoyer</p></button>
+        </div>
+        </form>
+    </div>
+</body>
+</html>

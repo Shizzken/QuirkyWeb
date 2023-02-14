@@ -1,0 +1,48 @@
+body {
+    background-color: black;
+}
+/* NavBar */
+nav {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 25px;
+    border-radius: 5px;
+}
+/* a */
+a {
+    text-decoration: none;
+    color:white;
+    padding: 40px;
+    font-size: 25px;
+}
+a:hover {
+    text-decoration-line: underline ;
+    text-decoration-thickness: 5px;
+  text-decoration-style: solid;
+  text-decoration-color: white;
+    background-color: black;
+    border-radius: 10px;
+    padding: 5px;
+  }
+  /* Creations */
+  section {
+    display: grid;
+    gap: 40px;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  img {
+    height: 200px;
+    width: 250px;
+  }
+.div1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    margin-top: 150px;
+    font-size: 35px;
+}
